@@ -67,7 +67,7 @@ a:hover {
     right: 0;
 }
 .texture-paper::before {
-    background: url(https://emericcarbonnier.github.io/Emericcarbonnier-CarbonnierEmeric_4_10-10-2021/img/texture-paper.png);
+    background: url(./img/texture-paper.webp);
     background-size: 280px 280px;
 }
 .b-parallax {
@@ -302,7 +302,7 @@ a[data-lightbox] {
 }
 a[data-lightbox]:hover::before {
     content: "+";
-    font-family: HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+    font-family: "Helvetica Neue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
     font-size: 32px;
     width: 50px;
     height: 50px;
@@ -349,12 +349,12 @@ h3,
 h4,
 h5,
 h6{
-    font-family: helvetica;
+    font-family: Helvetica;
     color: black !important;
 }
 
 p {
-    font-family: helvetica;
+    font-family: Helvetica;
     font-weight: 400;
     color: #575757 !important;
 }
@@ -468,13 +468,13 @@ h4 {
     border-color: #364577 !important;
 }
 .bg-lines-h2-bg {
-    background-image: url(https://emericcarbonnier.github.io/Emericcarbonnier-CarbonnierEmeric_4_10-10-2021/img/lines-h2-bg.png);
+    background-image: url(./img/lines-h2-bg.webp);
 }
 .bg-banniere {
-    background-image: url(https://emericcarbonnier.github.io/Emericcarbonnier-CarbonnierEmeric_4_10-10-2021/img/la-chouette-agence-banniere.jpg);
+    background-image: url(./img/la-chouette-agence-banniere.webp);
 }
 .bg-presentation {
-    background-image: url(https://emericcarbonnier.github.io/Emericcarbonnier-CarbonnierEmeric_4_10-10-2021/img/image-de-presentation.bmp);
+    background-image: url(./img/image-de-presentation.webp);
 }
 @media (max-width: 1024px) {
     .bloc {

@@ -92,7 +92,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgb(255, 255, 255);
 }
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
@@ -199,6 +199,7 @@ a:hover {
     z-index: 1;
 }
 .nav > li {
+    list-style: none;
 
     float: left;
     margin-top: 4px;
@@ -347,7 +348,11 @@ h2,
 h3,
 h4,
 h5,
-h6,
+h6{
+    font-family: helvetica;
+    color: black !important;
+}
+
 p {
     font-family: helvetica;
     font-weight: 400;
@@ -524,7 +529,7 @@ h4 {
     h5,
     h6,
     p {
-        font-size: 12px;
+        font-size: 16px;
         padding-left: 10px !important;
         padding-right: 10px !important;
     }

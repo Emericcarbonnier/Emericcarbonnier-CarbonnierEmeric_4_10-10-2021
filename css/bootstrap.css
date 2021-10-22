@@ -23,6 +23,9 @@ nav {
 [hidden] {
     display: none;
 }
+.font-weight-bold{
+    font-weight: bold;
+}
 
 a {
     background-color: transparent;
@@ -380,6 +383,7 @@ ul ul {
 .col-xs-7,
 .col-xs-8,
 .col-xs-9 {
+    margin-top: 20px;
     position: relative;
     min-height: 1px;
     padding-right: 15px;
